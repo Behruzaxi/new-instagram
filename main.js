@@ -7,7 +7,7 @@
     let inputValueTwo = inp[1].value
     let obj = {name: inputValueOne, lastname: inputValueTwo}
 
-    fetch('http://localhost:3000/data', {
+    fetch('https://for-backend-goldweb-production.up.railway.app/data', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
